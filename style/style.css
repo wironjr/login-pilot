@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #fff;
+	background-color: #000;
+	
+}
+
+#nome-app{
+	opacity: 0;
+}
+
+
+#container{
+	margin-top: 0;
+	width: 100%;
+	height: 755px;
+	margin: auto;
+	background: #000 url(../img/fundo-asfalto.jpg) no-repeat top center;
+}
+
+#container-card{
+	border: 1px solid white;
+	width: 400px;
+	height: 500px;
+	margin: 50px auto;
+	border-radius: 8px;
+	box-shadow: 10px 10px 15px black;
+	background-color: rgba(0,0,0,0.5);
+}
+
+/*logo pilot*/
+#logo-pilot{
+	width: 300px;
+	margin: -20px 0 0 60px;
+	filter: drop-shadow(3px 2px 2px #222);
+}
+
+/*inicio form*/
+#text-login{
+	margin-top: -20px;
+	text-align: center;
+}
+
+#usuario{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+#usuario-input{
+	text-align: right;
+	background: #FFF url(../img/icone-usuario.png) no-repeat left center;
+	background-position: 8px;
+}
+
+#senha-input{
+	background: #FFF url(../img/icone-cadeado.png) no-repeat left center;
+	background-position: 8px;
+}
+
+#usuario input{
+	text-align: center;
+	font-size: 1rem;
+	padding: 5px;
+	width: 160px;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+/*::placeholder{
+	text-align: right;*/
+}
+
+#senha{
+	margin: 20px;
+}
+
+#senha input{
+	text-align: center;
+	font-size: 1rem;
+	padding: 5px;
+	width: 160px;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.centralizar{
+	text-align: center;
+}
+
+#entrar-container{
+	margin: 25px auto;
+	width: 70px;
+}
+
+#entrar input{
+	border: none;
+	text-transform: uppercase;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+#entrar:hover input{
+	color: gray;
+	background: #dedede;
+}
+
+/*dropdown lojas*/
+#select{
+	  font-size: 1rem;
+	  font-family: "Trebuchet MS", Helvetica, sans-serif;
+	  text-transform: uppercase;
+	  text-align: center;
+	  border-radius: 8px;
+}
+
+#div-select{
+	width: 120px;
+ 	margin: 25px auto;
+}
+
+
+/*rodape*/
+#rodape{
+	font-size: 0.7rem;
+	text-align: center;
+}
+
+
+#logo-rodape-final{
+	width: 200px;
+	margin: auto;
+}
+
+#logo-rodape{
+	text-align: center;
+	text-shadow:2px 2px 2px #222;
+}
+
+#logo-rodape img{
+	filter: drop-shadow(3px 2px 2px #222);
+	width: 100%;
+	}
